@@ -38,11 +38,10 @@ const addToArrayForm = function (num, k) {
   return result.reverse()
 };
 
-/**
- * 
- * 2.编程题
- * 
-1.手写函数柯里化
+
+//  2.编程题
+// 1.手写函数柯里化
+
 function curry(func) {
   //此处补全
 }
@@ -55,5 +54,5 @@ let curriedSum = curry(sum);
 alert(curriedSum(1, 2, 3)); // 6, still callable normally
 alert(curriedSum(1)(2, 3)); // 6, currying of 1st arg
 alert(curriedSum(1)(2)(3)); // 6, full curryi
- */
+ 
 
